@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Mulish', sans-serif;
+}
+ 
+:root {
+  --purple: #1F1534;
+  --black: #000000;
+  --white: #e5e5e5;
+  --blue: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
+  --background: linear-gradient(338.5deg, #97C3F9 -525.42%, #93C1F9 918.63%);
+  --skyeblue: #458FF6;
+  --gray: #7D7987;
+}
