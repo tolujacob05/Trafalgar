@@ -1,0 +1,31 @@
+nav {
+    margin: 0 80px 50px ;
+    padding: 56px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img {
+    line-height: 30.12px;
+}
+
+.nav-list ul {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.nav-list> ul > li {
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    line-height: 22.59px;
+}
+
+ul .home > {
+    font-weight: bold;
+    color: var(--purple);
+}
