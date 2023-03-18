@@ -1,7 +1,7 @@
 .columns-dots {
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(5, 0.02fr);
+    grid-template-columns: repeat(5, 0.01fr);
     transform: translateY(-25%);
     margin: 10px;
     position: relative;
