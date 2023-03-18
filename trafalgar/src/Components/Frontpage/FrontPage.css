@@ -43,7 +43,7 @@ section {
     height: 56px;
     background: var(--skyeblue);
     border-radius: 56px;
-    color: var(--white);
+    color: white;
     border: var(--skyeblue);
     font-size: 18px;
     line-height: 60px;
@@ -92,6 +92,66 @@ section {
     top: 100px;
 }
 
+/* healthcare provider */
+
+/* .healthcare {
+    display: flex;
+    flex-direction: column;
+} */
+
+.healthcare-provider {
+    display: flex;
+    gap: 142px;
+}
+
+.providers {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.providers > hr {
+    height: 2px;
+    width: 56px;
+    border-radius: 10px;
+}
+
+.providers span:nth-of-type(1) {  
+    /* height: 112px; */
+    font-weight: 700;
+    color: var(--black);
+    font-size: 36px;
+    line-height: 56px;
+    margin-top: 45px;
+}
+
+.providers span:nth-of-type(2) {  
+    width: 450px;
+    font-weight: 300;
+    color: #7D7987;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+span > button {
+    width: 200px;
+    height: 56px;
+    background: #fff;
+    border-radius: 56px;
+    color: var(--skyeblue);
+    border: 1px solid #458FF6;
+    font-size: 18px;
+    /* line-height: 60px; */
+    font-weight: 700;
+
+}
+
+.c-dots {
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(-50%);
+}
+
 
 /* @media screen and (max-width: 480px) {
     .services-heading> hr {
@@ -103,7 +163,18 @@ section {
     .services-heading> hr {
         display: none;
     }
+
     .services-vector img {
         transform: scale(0.8);
+    }
+
+    .providers {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+    }
+
+    .providers > hr {
+        display: none;
     }
 }
