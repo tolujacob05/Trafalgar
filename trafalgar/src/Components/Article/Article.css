@@ -1,0 +1,134 @@
+.article-container {
+    display: flex;
+    position: relative;
+}
+
+.article-section {
+    margin: 0 80px 50px ;
+    padding: 56px;
+}
+
+.content-head {
+    /* margin: 0 80px 50px ;
+    padding: 56px; */
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /* transform: translateX(100%); */
+}
+
+.content-head > span {
+    width: 662px;
+    height: 56px;
+    font-size: 36px;
+    line-height: 56px;
+    font-weight: 700;
+    color: var(--black);
+    text-align: center;
+}
+
+.hr2 {
+    height: 2px;
+    width: 56px;
+    border-radius: 5px;
+    background: var(--black);
+    margin-left: 40%;
+    margin-top: 20px;
+    transform: translateX(50%);
+}
+
+.article-section {
+    padding-top: 9rem;
+}
+
+.dot5 {
+    padding-top: 10%;
+}
+
+.article-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr);
+    grid-gap: 3rem;
+}
+
+.section1 {
+    display: grid;
+    border: 1px solid white;
+    background: white;
+    border-radius: 20px;
+    width: 350px;
+    height: 512px;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    transform: translateY(-16.5%);
+    z-index: 1;
+}
+
+.article-img > img {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.article-heads {
+    display: grid;
+    gap: 10px;
+    padding: 1rem;
+}
+
+.article-heads > span:nth-of-type(1) {
+    font-weight: 700;
+    width: 245px;
+    height: 64px;
+    line-height: 32px;
+    font-size: 21px;
+    color: var(--black);
+}
+
+.article-heads > span:nth-of-type(2) {
+    width: 266px;
+    height: 84px;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--gray);
+    line-height: 28px;
+}
+
+.read-more {
+    padding: 1rem;
+}
+
+.read-more > span {
+    width: 266px;
+    height: 28px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #4089ED;
+}
+
+.read-more > img {
+    transform: translateX(10px);
+}
+
+.article-button {
+    text-align: center;
+}
+
+.article-button > button {
+    width: 200px;
+    height: 56px;
+    background: var(--skyeblue);
+    border-radius: 56px;
+    color: white;
+    border: var(--skyeblue);
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 700;
+}
+
+.article-container > img {
+    height: 557px;
+    padding-top: 5rem;
+    position: absolute;
+    right: 0.01%;
+    bottom: 25%;
+}
