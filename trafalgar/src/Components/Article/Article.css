@@ -132,3 +132,10 @@
     right: 0.01%;
     bottom: 25%;
 }
+
+@media screen and (max-width: 480px) {
+    .article-container > img {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

@@ -29,3 +29,19 @@ ul .home > {
     font-weight: bold;
     color: var(--purple);
 }
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .nav-list {
+        transform: translateX(10%);
+    }
+
+    .nav-list> ul > li {
+        width: 100px;
+    }
+}

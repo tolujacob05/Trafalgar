@@ -6,23 +6,53 @@ import Frame3 from "../../img/Frame3.png";
 import Frame4 from "../../img/Frame4.png";
 import Frame5 from "../../img/Frame5.png";
 import Frame6 from "../../img/Frame6.png";
+import { motion } from "framer-motion";
 
 
 const Services = () => {
+    const midVariants = {
+        hidden: {
+            opacity: 0,
+        }, 
+        visible: {
+            opacity: 1,
+            transition: {
+                delay: 1,
+                duration: 5,
+            }
+        }
+    }
+
+    const transition = {
+        duration: 1,
+        type: "spring",
+    }
+
+
     return (
         <>
             <div className="div">
                 <div className="services-section">
-                    <div className="plans">
+                    <motion.div 
+                        className="plans"
+                        initial={{left: "5rem"}}
+                        whileInView={{left: "14rem"}}
+                        transition={transition}
+                    >
                         <img src={Frame1} alt=""/>
                         <span>Search doctor</span>
                         <span>Choose your doctor from thousands of specialist, general, and trusted hospitals</span>
-                    </div>
-                    <div className="plans">
+                    </motion.div>
+                    <motion.div 
+                        className="plans"
+                        variants={midVariants}
+                        initial={"hidden"}
+                        animate={"visible"}
+                    >
                         <img src={Frame2} alt=""/>
                         <span>Online pharmacy</span>
                         <span>Buy your medicines with our mobile application with a simple delivery system</span>
-                    </div>
+                    </motion.div>
                     <div className="plans">
                         <img src={Frame3} alt=""/>
                         <span>Consultation</span>

@@ -178,3 +178,20 @@ span > button {
         display: none;
     }
 }
+
+@media screen and (max-width: 480px) {
+    .services-heading {
+        width: 100%;
+        transform: translateY(-150%);
+    }
+
+    .services-heading > h1 {
+        width: 200px;
+        text-align: center;
+    }
+
+    .services-heading > p {
+        width: 500px;
+        padding-top: 1rem;
+    }
+}
