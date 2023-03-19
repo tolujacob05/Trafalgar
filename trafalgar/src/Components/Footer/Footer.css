@@ -78,9 +78,21 @@ ul > li > a {
     font-weight: 300;
 }
 
+.dot-a {
+    display: flex;
+    justify-content: flex-end;
+    transform: translateY(-40%);
+}
+
 .dot-b {
     position: absolute;
     left: 3.5%;
     bottom: 0.01%;
+}
+
+@media screen and (max-width: 480px) {
+    .footer {
+        width: 335%;
+    }
 }
 

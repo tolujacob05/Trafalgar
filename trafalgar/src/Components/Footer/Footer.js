@@ -27,28 +27,28 @@ const Footer = () => {
                         <div className="footer-company">
                             <span>Company</span>
                             <ul>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Testimonials</a></li>
-                                <li><a href="#">Find a doctor</a></li>
-                                <li><a href="#">Apps</a></li>
+                                <li><a href="/#">About</a></li>
+                                <li><a href="/#">Testimonials</a></li>
+                                <li><a href="/#">Find a doctor</a></li>
+                                <li><a href="/#">Apps</a></li>
                             </ul>
                         </div>
                         <div className="footer-company">
                             <span>Region</span>
                             <ul>
-                                <li><a href="#">Indonesia</a></li>
-                                <li><a href="#">Singapore</a></li>
-                                <li><a href="#">Hongkong</a></li>
-                                <li><a href="#">Canada</a></li>
+                                <li><a href="/#">Indonesia</a></li>
+                                <li><a href="/#">Singapore</a></li>
+                                <li><a href="/#">Hongkong</a></li>
+                                <li><a href="/#">Canada</a></li>
                             </ul>
                         </div>
                         <div className="footer-company">
                             <span>Help</span>
                             <ul>
-                                <li><a href="#">Help center</a></li>
-                                <li><a href="#">Contact support</a></li>
-                                <li><a href="#">Instructions</a></li>
-                                <li><a href="#">How it works</a></li>
+                                <li><a href="/#">Help center</a></li>
+                                <li><a href="/#">Contact support</a></li>
+                                <li><a href="/#">Instructions</a></li>
+                                <li><a href="/#">How it works</a></li>
                             </ul>
                         </div>
                     </div>
